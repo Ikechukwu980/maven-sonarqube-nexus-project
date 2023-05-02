@@ -33,7 +33,14 @@ The following are instructions for installing Apache Maven and Java 8 on an Amaz
 ### Project Preparation
 7. Create the `.m2` directory in the home directory of your current user
     `mkdir ~/.m2`
+    
+8. Clone your git reposistory to the home directory of your Ec2 instance
+    `git clone`
 
 8. Create the Settings file inside of the `~/.m2` directory
     `cd ~/.m2/`
     `mv demo/settings.xml ~/.m2/`
+    
+9. Install git and tree
+    `sudo yum install git`
+    `sudo yum install tree`
